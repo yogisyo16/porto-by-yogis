@@ -19,7 +19,7 @@ const raleway = Raleway({
 });
 
 export const metadata = {
-  title : "Yogiswara Adinugraha Pramudita",
+  title : "PortGis",
   description : "programmer",
 }
 
