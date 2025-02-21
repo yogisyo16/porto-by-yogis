@@ -23,21 +23,6 @@ export const metadata = {
   description : "programmer",
 }
 
-// const geistSans = Geist({
-
-//   variable: "--font-geist-sans",
-
-//   subsets: ["latin"],
-
-// });
-
-// const geistMono = Geist_Mono({
-
-//   variable: "--font-geist-mono",
-
-//   subsets: ["latin"],
-
-// });
 
 export default function RootLayout({
   children,
@@ -46,7 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={(classnames(raleway.className), "bg-indigo-950/70")}>
+      <body
+        className={(classnames(raleway.className), "bg-indigo-900/70 glass")}
+      >
         <nav className="flex-nowrap fixed top-0 z-10 w-full">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a
