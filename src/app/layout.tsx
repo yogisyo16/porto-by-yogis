@@ -72,8 +72,15 @@ export default function RootLayout({
               className="hidden w-full md:block md:w-auto"
               id="navbar-portgis"
             >
-              <ul className="flex align-middle md:flex-row md:space-x-8 rtl:space-x-reverse">
+              <ul className="menu menu-horizontal md:flex-row md:space-x-8 rtl:space-x-reverse">
                 <li className="mr-4">
+                  <svg
+                    className="w-10 h-10"
+                    aria-hidden="true"
+                    xmlns="/icons/info.svg"
+                    fill="white"
+                    viewBox="0 0 17 14"
+                  ></svg>
                   <a href="#">About</a>
                 </li>
                 <li className="mr-4">
