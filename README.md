@@ -1,10 +1,8 @@
 ## About PortGis
 
-This solo project try to create a portofolio template.
+This solo project try to create my own portofolio.
 
 `I Try my best!`
-
-
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
