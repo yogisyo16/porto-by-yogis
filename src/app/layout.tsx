@@ -2,6 +2,7 @@ import { Macondo, Raleway } from "next/font/google";
 import "./globals.css";
 import classnames from "classnames";
 
+
 const macondo = Macondo({
   variable: "--font-macondo",
 
@@ -34,13 +35,13 @@ export default function RootLayout({
       <body
         className={(classnames(raleway.className), "bg-indigo-900/70 glass")}
       >
-        <nav className="flex-nowrap fixed top-0 z-10 w-full">
+        <nav className="flex-nowrap top-0 w-full">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a
-              href="#"
+              href="/"
               className={
                 (classnames(macondo.className),
-                "bg-gradient-to-r from-gray-100 via-zinc-300 to-stone-400 text-transparent bg-clip-text text-3xl")
+                "bg-gradient-to-r from-slate-950 via-zinc-400 to-stone-100 text-transparent bg-clip-text text-3xl")
               }
             >
               PortGis
@@ -73,18 +74,11 @@ export default function RootLayout({
               id="navbar-portgis"
             >
               <ul className="menu menu-horizontal md:flex-row md:space-x-8 rtl:space-x-reverse">
-                <li className="mr-4">
-                  <svg
-                    className="w-10 h-10"
-                    aria-hidden="true"
-                    xmlns="/icons/info.svg"
-                    fill="white"
-                    viewBox="0 0 17 14"
-                  ></svg>
+                <li className="mr-2">
                   <a href="#">About</a>
                 </li>
                 <li className="mr-4">
-                  <a href="#">Projects</a>
+                  <a href="/projects">Projects</a>
                 </li>
                 <li className="mr-4">
                   <a href="#">Contact</a>
