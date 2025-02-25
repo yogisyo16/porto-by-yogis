@@ -2,7 +2,7 @@ import { Macondo, Raleway } from "next/font/google";
 import "./globals.css";
 import classnames from "classnames";
 import Link from "next/link";
-import Transition from "./transition";
+import Transition from "../../public/animation/transition";
 
 const macondo = Macondo({
   variable: "--font-macondo",
@@ -76,7 +76,7 @@ export default function RootLayout({
             >
               <ul className="menu menu-horizontal md:flex-row md:space-x-8 rtl:space-x-reverse">
                 <li className="mr-2">
-                  <Link href="#">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li className="mr-4">
                   <Link href="/projects">Projects</Link>

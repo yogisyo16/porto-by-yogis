@@ -2,10 +2,6 @@
 
 import { motion } from "framer-motion";
 
-export const animationPage = {
-    
-}
-
 export default function Transition({
     children,
 }: {

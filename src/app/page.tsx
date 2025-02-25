@@ -1,5 +1,8 @@
+"use client"
+
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -34,25 +37,52 @@ export default function Home() {
         </div>
         <div className="flex flex-row gap-4 items-center">
           <Link href="https://github.com/yogisyo16" target="_blank">
-            <Image
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-              className="w-10 h-10 hover:bg-slate-500 rounded-lg"
-              alt="GitHub Yogis"
-            />
+            <motion.div
+              className="hover:bg-slate-500 rounded-xl"
+              whileHover={{
+                scale: 1.3,
+              }}
+            >
+              <Image
+                src="/icons/github.png"
+                width={35}
+                height={35}
+                alt="GitHub Yogiswara"
+              />
+            </motion.div>
           </Link>
-          <Link href="https://www.linkedin.com/in/yogiswara-adinugraha/" target="_blank">
-            <Image
-              src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png"
-              className="w-10 h-10 hover:bg-slate-500 rounded-lg"
-              alt=""
-            />
+          <Link
+            href="https://www.linkedin.com/in/yogiswara-adinugraha/"
+            target="_blank"
+          >
+            <motion.div
+              className="hover:bg-slate-500 rounded-xl"
+              whileHover={{
+                scale: 1.3,
+              }}
+            >
+              <Image
+                src="/icons/linkedin.png"
+                width={35}
+                height={35}
+                alt="LinkedIn Yogiswara"
+              />
+            </motion.div>
           </Link>
           <Link href="https://www.instagram.com/yogiss_1010/" target="_blank">
-            <Image
-              src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"
-              className="w-10 h-10 hover:bg-slate-500 rounded-lg"
-              alt=""
-            />
+            <motion.div
+              className="hover:bg-slate-500 rounded-xl"
+              whileHover={{
+                scale: 1.3,
+              }}
+            >
+              <Image
+                src="/icons/instagram.png"
+                width={35}
+                height={35}
+                alt="Instagram Yogiswara"
+              />
+            </motion.div>
           </Link>
         </div>
       </main>
