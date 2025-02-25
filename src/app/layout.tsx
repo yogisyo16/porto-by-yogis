@@ -36,13 +36,13 @@ export default function RootLayout({
       <body
         className={(classnames(raleway.className), "bg-indigo-900/70 glass")}
       >
-        <nav className="flex-nowrap top-0 w-full">
-          <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <nav className="navbar-center">
+          <div className="max-w-screen-2xl flex items-center justify-between mx-auto p-4">
             <Link
               href="/"
               className={
                 (classnames(macondo.className),
-                "bg-gradient-to-r from-slate-950 via-zinc-400 to-stone-100 text-transparent bg-clip-text text-3xl")
+                "bg-gradient-to-r from-slate-600 via-cyan-700 to-purple-600 text-transparent bg-clip-text text-4xl")
               }
             >
               PortGis

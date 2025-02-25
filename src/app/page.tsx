@@ -16,22 +16,13 @@ export default function Home() {
             Full-Stack Developer
           </h2>
           <div className="flex flex-col mt-12 gap-4">
-            <h3 className="text-5xl text-center">About</h3>
-            <p className="flex-wrap mx-80 md:text-wrap sm:text-wrap">
-              I am an adaptable and highly motivated individual who thrives in
-              new environments and integrates well into diverse teams and
-              communities. My experience spans web development, system and
-              application development, iOS development, and game development. As
-              a programmer, I possess strong logical and abstract thinking
-              skills, enabling me to analyze and solve complex problems
-              effectively.
-            </p>
-            <p className="flex-wrap mx-80 md:text-wrap sm:text-wrap">
-              I have a proven track record of actively participating in
-              organizations, progressing from a member to a leadership role.
-              Known for my cheerful demeanor, persistence, and strong work
-              ethic, I am committed to delivering high-quality results and
-              continuously striving to reach my full potential.
+            <h3 className="text-5xl text-center">Hello!</h3>
+            <p className="flex-wrap mx-96 my-10 md:text-wrap sm:text-wrap">
+              Whatssssuppppp!!! Hello everyone! My name is Yogiswara Adinugraha
+              Pramudita and you can call me Yoga, Yogis, and Yogi. Lorem ipsum dolor sit amet consectetur adipisicing elit. A, officiis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias expedita saepe eveniet libero aliquam minus dignissimos assumenda illum aspernatur debitis?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat blanditiis quasi nostrum nemo. Perspiciatis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis optio repudiandae iusto id deserunt?
             </p>
           </div>
         </div>
@@ -57,6 +48,7 @@ export default function Home() {
           >
             <motion.div
               className="hover:bg-slate-500 rounded-xl"
+              whileTap={{ scale: 1.6 }}
               whileHover={{
                 scale: 1.3,
               }}
@@ -86,7 +78,7 @@ export default function Home() {
           </Link>
         </div>
       </main>
-      <footer className="flex flex-wrap row-start-2 mt-10 items-center">
+      <footer className="flex flex-wrap row-start-2 mt-0 mb-10 items-center">
         <p>Copyright &copy; 2025 Yogiswara Adinugraha Pramudita</p>
       </footer>
     </div>

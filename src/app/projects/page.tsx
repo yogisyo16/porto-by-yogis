@@ -12,7 +12,7 @@ return (
             <h1 className="text-4xl text-center">
                 Projects
             </h1>
-            <img src="/images/Pro Display XDR.png" alt="" className="w-100" />
+            <Image src="/images/Pro Display XDR.png" width={300} height={300} alt="LinkedIn Yogiswara" />
         </div>
         <div className="flex flex-row gap-4 items-center">
             <Link href="https://github.com/yogisyo16" target="_blank">
@@ -47,7 +47,7 @@ return (
             </Link>
         </div>
     </main>
-    <footer className="flex flex-wrap row-start-2 mt-10 items-center">
+    <footer className="flex flex-wrap row-start-2 mt-0 mb-10 items-center">
         <p>Copyright &copy; 2025 Yogiswara Adinugraha Pramudita</p>
     </footer>
 </div>
