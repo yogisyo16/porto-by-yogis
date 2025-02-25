@@ -2,7 +2,6 @@ import { Macondo, Raleway } from "next/font/google";
 import "./globals.css";
 import classnames from "classnames";
 import Link from "next/link";
-import Image from "next/image";
 import Transition from "./transition";
 
 const macondo = Macondo({
