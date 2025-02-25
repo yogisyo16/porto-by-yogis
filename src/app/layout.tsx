@@ -1,7 +1,8 @@
 import { Macondo, Raleway } from "next/font/google";
 import "./globals.css";
 import classnames from "classnames";
-
+import Link from "next/link";
+import Transition from "./transition";
 
 const macondo = Macondo({
   variable: "--font-macondo",
@@ -37,7 +38,7 @@ export default function RootLayout({
       >
         <nav className="flex-nowrap top-0 w-full">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a
+            <Link
               href="/"
               className={
                 (classnames(macondo.className),
@@ -45,7 +46,7 @@ export default function RootLayout({
               }
             >
               PortGis
-            </a>
+            </Link>
             <button
               data-collapse-toggle="navbar-portgis"
               type="button"
@@ -75,19 +76,19 @@ export default function RootLayout({
             >
               <ul className="menu menu-horizontal md:flex-row md:space-x-8 rtl:space-x-reverse">
                 <li className="mr-2">
-                  <a href="#">About</a>
+                  <Link href="#">About</Link>
                 </li>
                 <li className="mr-4">
-                  <a href="/projects">Projects</a>
+                  <Link href="/projects">Projects</Link>
                 </li>
                 <li className="mr-4">
-                  <a href="#">Contact</a>
+                  <Link href="#">Contact</Link>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-        {children}
+        <Transition>{children}</Transition>
       </body>
     </html>
   );

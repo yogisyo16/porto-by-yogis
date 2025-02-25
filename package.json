@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
+    "framer-motion": "^12.4.7",
     "next": "15.1.7",
     "profile-yogiswara": "file:",
     "react": "^19.0.0",
