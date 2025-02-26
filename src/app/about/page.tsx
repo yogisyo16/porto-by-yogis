@@ -2,11 +2,21 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+// import { useInView } from "framer-motion";
+// import { useState } from "react";
+// import { useRef } from "react";
 
 export default function About() {
+
+    // const [inView, setInView] = useState(false);
+    // const ref = useRef(null);
+
+    // useInView(ref, (isInView) => {
+    //     setInView(inView);
+    // });
+
     return (
         <div className="grid items-center justify-items-center min-h-screen">
-            
             <main className="flex flex-col md:items-center sm:items-center">
                 <div className="flex flex-col items-center gap-4">
                     <div className="flex flex-row items-center">
@@ -35,6 +45,13 @@ export default function About() {
                                         initial={{ opacity: 0, x: -50 }}
                                         animate={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 1.6 }}
+                                        whileHover={{
+                                            scale: 1.02,
+                                            transition: {
+                                                duration: 0.6, // transition duration for hover effect
+                                                ease: "easeInOut", // transition easing for hover effect
+                                            },
+                                        }}
                                     >
                                         <figure>
                                             <Image src="/images/Yogis1.jpg" width={500} height={500} alt="LinkedIn Yogiswara" />
@@ -79,11 +96,13 @@ export default function About() {
                                 </div>
                                 <div className="timeline-end md:mb-10">
                                     <time className="font-bold italic">Kobe!!!</time>
-                                    <motion.div 
+                                    <motion.div
+                                        // ref={ref}
                                         className="card card-normal bg-slate-600 w-96 shadow-2xl rounded-2xl"
                                         initial={{ opacity: 0, x: 50 }}
-                                        animate={{ opacity: 1, x: 0 }}
+                                        whileInView={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 1.6 }}
+                                        viewport={{ once: false }}
                                     >
                                         <figure>
                                             <Image src="/images/Yogis2.jpg" width={500} height={500} alt="LinkedIn Yogiswara" />
