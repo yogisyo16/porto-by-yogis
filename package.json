@@ -11,22 +11,26 @@
   "dependencies": {
     "classnames": "^2.5.1",
     "framer-motion": "^12.4.7",
-    "next": "15.1.7",
+    "next": "15.2.0",
     "profile-yogiswara": "file:",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
     "daisyui": "^4.12.23",
     "eslint": "^9",
-    "eslint-config-next": "15.1.7",
+    "eslint-config-next": "15.2.0",
     "eslint-config-prettier": "^10.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4"
   }
 }

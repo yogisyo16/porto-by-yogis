@@ -1,8 +1,13 @@
 import { Macondo, Raleway } from "next/font/google";
 import "./globals.css";
+import type { Viewport } from "next";
 import classnames from "classnames";
 import Link from "next/link";
 import Transition from "../../public/animation/transition";
+
+export const viewport: Viewport = {
+  themeColor: "black",
+};
 
 const macondo = Macondo({
   variable: "--font-macondo",

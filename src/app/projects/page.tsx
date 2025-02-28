@@ -12,7 +12,7 @@ return (
             <h1 className="text-4xl text-center">
                 Projects
             </h1>
-            <Image src="/images/Pro Display XDR.png" width={300} height={300} alt="LinkedIn Yogiswara" />
+            <Image src="/images/Pro Display XDR.png" width={300} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" alt="LinkedIn Yogiswara" />
         </div>
         <div className="flex flex-row gap-4 items-center">
             <Link href="https://github.com/yogisyo16" target="_blank">
