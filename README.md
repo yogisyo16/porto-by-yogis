@@ -4,6 +4,8 @@ This solo project try to create my own portofolio.
 
 `I Try my best!`
 
+#THIS PORTO STILL IN DEVELOPMENT STATE NOT YET TO BE FINAL
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
