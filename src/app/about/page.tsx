@@ -59,7 +59,7 @@ export default function About() {
                                         <div className="card-body">
                                             <h2 className="card-title">Yogiswara Adinugraha Pramudita</h2>
                                             <h2 className="card-side text-center">Summary</h2>
-                                            <p>
+                                            <p className="text-center">
                                                 I am an adaptable and highly motivated individual who thrives in
                                                 new environments and integrates well into diverse teams and
                                                 communities. My experience spans web development, system and
@@ -68,7 +68,7 @@ export default function About() {
                                                 skills, enabling me to analyze and solve complex problems
                                                 effectively.
                                             </p>
-                                            <p>
+                                            <p className="text-center">
                                                 I have a proven track record of actively participating in
                                                 organizations, progressing from a member to a leadership role.
                                                 Known for my cheerful demeanor, persistence, and strong work
@@ -102,14 +102,21 @@ export default function About() {
                                         initial={{ opacity: 0, x: 50 }}
                                         whileInView={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 1.6 }}
+                                        whileHover={{
+                                            scale: 1.02,
+                                            transition: {
+                                                duration: 0.6, // transition duration for hover effect
+                                                ease: "easeInOut", // transition easing for hover effect
+                                            },
+                                        }}
                                         viewport={{ once: false }}
                                     >
                                         <figure>
                                             <Image src="/images/Yogis2.jpg" width={500} height={500} alt="LinkedIn Yogiswara" />
                                         </figure>
                                         <div className="card-body">
-                                            <h1 className="card-title">Hobby</h1>
-                                            <p>
+                                            <h1 className="card-title text-center">Life Story of Me</h1>
+                                            <p className="text-center">
                                                 I am an adaptable and highly motivated individual who thrives in
                                                 new environments and integrates well into diverse teams and
                                                 communities. My experience spans web development, system and
