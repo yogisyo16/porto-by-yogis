@@ -17,16 +17,11 @@ export default function Home() {
           </h2>
           <div className="flex flex-col mt-12 gap-4">
             <h3 className="text-5xl text-center">Hello!</h3>
-            <p className="flex-wrap mx-10 my-10 md:text-start sm:text-start">
+            <p className="flex-wrap mx-10 my-10 text-center md:text-center sm:text-center">
               Whatssssuppppp!!! Hello everyone! My name is Yogiswara Adinugraha
-              Pramudita and you can call me Yoga, Yogis, and Yogi. Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. A, officiis. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              expedita saepe eveniet libero aliquam minus dignissimos assumenda
-              illum aspernatur debitis? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Facilis repellat blanditiis quasi nostrum nemo.
-              Perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Molestias blanditiis optio repudiandae iusto id deserunt?
+              Pramudita and you can call me Yoga, Yogis, and Yogi I am a daily codder person 
+              <br />(i don't know is that even a word) hahaha
+              <br />But I have been so passionate on code since my first year in college.
             </p>
           </div>
         </div>

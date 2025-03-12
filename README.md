@@ -8,6 +8,19 @@ This solo project try to create my own portofolio.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+### UPDATE PROGRESS
+
+About
+
+- Using timeline
+- Using card
+- Using Motion framework for animation
+
+Project
+
+- I'm trying to use something original not from card
+- Only 1 projects that i can share for now but, next i will add more like my last job projects using Java and stuff
+
 ## Getting Started
 
 First, run the development server:
