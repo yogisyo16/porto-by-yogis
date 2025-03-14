@@ -19,9 +19,8 @@ export default function Home() {
             <h3 className="text-5xl text-center">Hello!</h3>
             <p className="flex-wrap mx-10 my-10 text-center md:text-center sm:text-center">
               Whatssssuppppp!!! Hello everyone! My name is Yogiswara Adinugraha
-              Pramudita and you can call me Yoga, Yogis, and Yogi I am a daily codder person 
-              <br />(i don't know is that even a word) hahaha
-              <br />But I have been so passionate on code since my first year in college.
+              Pramudita and you can call me Yoga, Yogis, and Yogi
+              <br />I have been so passionate on code since my first year in college.
             </p>
           </div>
         </div>
