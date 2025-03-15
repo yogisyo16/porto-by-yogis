@@ -87,7 +87,7 @@ export default function RootLayout({
                   <Link href="/projects">Projects</Link>
                 </li>
                 <li className="mr-4">
-                  <Link href="#">Contact</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </ul>
             </div>

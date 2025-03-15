@@ -10,7 +10,7 @@ return (
     <main className="flex flex-col gap-4 row-start-1 md:items-center sm:items-center">
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl text-center">Projects</h1>
-        <div className="flex flex-col gap-8 p-6 items-center border-neutral-950 border-2 shadow-xl shadow-slate-800 bg-slate-500">
+        <div className="flex flex-col gap-8 p-4 items-start border-neutral-950 border-2 rounded-badge shadow-xl shadow-slate-800 bg-slate-500">
           <h1 className="text-3xl text-start sm:text-center md:text-center">
             Sistem PPDB SMP Maria Immaculata
           </h1>
@@ -21,8 +21,10 @@ return (
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt="LinkedIn Yogiswara"
           />
-          <div className="flex flex-col col-span-2">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quo numquam facilis id nemo dignissimos assumenda veritatis necessitatibus itaque repellat!</p>
+          <div className="flex">
+            <p className="md:w-56 lg:w-1/2 xl:w-1/3 break-words flex-1">
+              My latest project for my final project in college. this project was inteded to help a.
+            </p>
           </div>
         </div>
       </div>
