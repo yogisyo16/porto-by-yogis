@@ -6,9 +6,18 @@ This solo project try to create my own portofolio.
 
 # THIS PORTO STILL IN DEVELOPMENT STATE NOT YET TO BE FINAL
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ### UPDATE PROGRESS
+
+This nextjs using daisyui for template tailwind css.
+Framer motion also used in here.
+
+For example simple animation like fade up on all pages,
+You can found it under public/animation/transition.tsx
+and src/app/template.tsx.
+
+those files contains the template for animation i used for every page.
+
+For some animation, using motion.div, or inline.
 
 About
 
@@ -20,6 +29,12 @@ Project
 
 - I'm trying to use something original not from card
 - Only 1 projects that i can share for now but, next i will add more like my last job projects using Java and stuff
+
+Contact
+
+- Still under construction
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
