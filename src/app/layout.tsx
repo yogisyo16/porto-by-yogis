@@ -46,10 +46,7 @@ export default function RootLayout({
             <div className="flex-1 mx-auto p-4">
               <Link
                 href="/"
-                className={
-                  (classnames(macondo.className),
-                  "bg-gradient-to-r from-slate-600 via-cyan-700 to-purple-600 text-transparent bg-clip-text text-4xl")
-                }
+                className="shadow-2xl rounded-full hover:scale-105 hover:shadow-lg transition duration-500 ease-in-out"
               >
                 <img
                   src="/images/logo-transparent.png"
