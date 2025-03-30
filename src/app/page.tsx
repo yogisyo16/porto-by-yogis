@@ -6,25 +6,24 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="grid items-center justify-items-center min-h-screen md:items-center sm:items-center">
-      <main className="flex flex-col gap-4 row-start-1 md:items-center sm:items-center">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-4xl text-center">
-            Yogiswara Adinugraha Pramudita
-          </h1>
-          <h2 className="text-2xl text-gray-400 text-center">
-            Full-Stack Developer
-          </h2>
-          <div className="flex flex-col mt-12 gap-4">
-            <h3 className="text-5xl text-center">Hello!</h3>
-            <p className="flex-wrap mx-10 my-10 text-center md:text-center sm:text-center">
-              Whatssssuppppp!!! Hello everyone! My name is Yogiswara Adinugraha
-              Pramudita and you can call me Yoga, Yogis, and Yogi
-              <br />I have been so passionate on code since my first year in college.
-            </p>
-          </div>
+    <main className="flex flex-col items-center justify-center flex-1">
+      <div className="flex flex-col items-center">
+        <h1 className="text-4xl text-center gap-4">
+          Yogiswara Adinugraha Pramudita
+        </h1>
+        <h2 className="text-2xl text-gray-400 text-center">
+          Full-Stack Developer
+        </h2>
+        <div className="flex flex-col mt-12 gap-4">
+          <h3 className="text-5xl text-center">Hello!</h3>
+          <p className="flex-wrap mx-10 my-10 text-center md:text-center sm:text-center">
+            Whatssssuppppp!!! Hello everyone! My name is Yogiswara Adinugraha
+            Pramudita and you can call me Yoga, Yogis, and Yogi
+            <br />I have been so passionate on code since my first year in
+            college.
+          </p>
         </div>
-        <div className="flex flex-row gap-4 md:items-center sm:items-center">
+        <div className="flex flex-row gap-4 items-center md:items-center">
           <Link href="https://github.com/yogisyo16" target="_blank">
             <motion.div
               className="hover:bg-slate-500 rounded-xl"
@@ -75,10 +74,10 @@ export default function Home() {
             </motion.div>
           </Link>
         </div>
-      </main>
-      <footer className="flex flex-wrap row-start-2 mt-0 mb-10 items-center">
+      </div>
+      <footer className="flex flex-col mt-36 pt-0 mb-10 ml-4 items-center text-center md:mt-56 md:pt-16">
         <p>Copyright &copy; 2025 Yogiswara Adinugraha Pramudita</p>
       </footer>
-    </div>
+    </main>
   );
 }
