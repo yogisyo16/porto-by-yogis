@@ -38,6 +38,7 @@ export default function Home() {
                 alt="GitHub Yogiswara"
               />
             </motion.div>
+{/* umang */}
           </Link>
           <Link
             href="https://www.linkedin.com/in/yogiswara-adinugraha/"

@@ -127,6 +127,7 @@ export default function About() {
                                                 effectively.
                                             </p>
                                         </div>
+{/* umang */}
                                     </motion.div>
                                 </div>
                                 <hr />
