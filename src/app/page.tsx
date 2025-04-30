@@ -12,13 +12,13 @@ export default function Home() {
           Yogiswara Adinugraha Pramudita
         </h1>
         <h2 className="text-2xl text-gray-400 text-center">
-          Full-Stack Developer
+          Frontend Developer | Backend Developer | Game Developer | Mobile Developer
         </h2>
         <div className="flex flex-col mt-12 gap-4">
           <h3 className="text-5xl text-center">Hello!</h3>
           <p className="flex-wrap mx-10 my-10 text-center md:text-center sm:text-center">
             Whatssssuppppp!!! Hello everyone! My name is Yogiswara Adinugraha
-            Pramudita and you can call me Yoga, Yogis, and Yogi
+            Pramudita and you can call me Yoga, Yogis, and Yogi. Whatever you want. (hehe)
             <br />I have been so passionate on code since my first year in
             college.
           </p>
