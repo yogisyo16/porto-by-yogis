@@ -12,7 +12,7 @@ export default function Home() {
           Yogiswara Adinugraha Pramudita
         </h1>
         <h2 className="text-2xl text-gray-400 text-center">
-          Frontend Developer | Backend Developer | Game Developer | Mobile Developer
+          Full-Stack Developer
         </h2>
         <div className="flex flex-col mt-12 gap-4">
           <h3 className="text-5xl text-center">Hello!</h3>
