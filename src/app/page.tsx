@@ -14,13 +14,10 @@ export default function Home() {
         <h2 className="text-2xl text-gray-400 text-center">
           Full-Stack Developer
         </h2>
-        <div className="flex flex-col mt-12 gap-4">
-          <h3 className="text-5xl text-center">Hello!</h3>
-          <p className="flex-wrap mx-10 my-10 text-center md:text-center sm:text-center">
-            Whatssssuppppp!!! Hello everyone! My name is Yogiswara Adinugraha
-            Pramudita and you can call me Yoga, Yogis, and Yogi. Whatever you want. (hehe)
-            <br />I have been so passionate on code since my first year in
-            college.
+        <div className="flex flex-col mt-12 gap-1">
+          <h3 className="text-5xl text-center">Hello World!</h3>
+          <p className="flex-wrap mx-10 mt-9 mb-10 text-center md:text-center sm:text-center">
+            I'm currently employed at ubersnap
           </p>
         </div>
         <div className="flex flex-row gap-4 items-center md:items-center">
