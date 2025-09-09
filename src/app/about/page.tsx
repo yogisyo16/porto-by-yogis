@@ -127,6 +127,7 @@ export default function About() {
                                                 effectively.
                                             </p>
                                         </div>
+{/* umang */}
                                     </motion.div>
                                 </div>
                                 <hr />
@@ -162,15 +163,20 @@ export default function About() {
                                         }}
                                         viewport={{ once: false }}
                                     >
-                                        <figure>
-                                            <Image src="/icons/Spotify-Black-Logo.wine.png" width={300} height={300} alt="Spotify" />
-                                        </figure>
-                                        <div className="card-body">
-                                            <h2 className="card-title self-center">My Playlist</h2>
-                                            <h2 className="card-side text-center">Ndak og</h2>
-                                            <div className="flex">
-                                                <Image src="/images/playlist-ndakog.png" width={200} height={200} alt="Spotify" className="flex-1" />
-                                                <a className="flex-1 text-center self-center" href="https://open.spotify.com/playlist/66G9IRzO6CLJ975qpdPwYO?si=2d747d823ca64562" target="_blank">link</a>
+                                        <div className="bg-zinc-700 rounded-lg">
+                                            <figure>
+                                                <Image src="/icons/Spotify-Black-Logo.wine.png" width={300} height={300} alt="Spotify" />
+                                            </figure>
+                                            <div className="card-body">
+                                                <h2 className="card-title self-center">My Playlist</h2>
+                                                <h2 className="card-side text-center">Ndak og</h2>
+                                                <div className="flex flex-row">
+                                                    <div className="flex-1 flex-col">
+                                                        <h3 className="text-sm">Yogiswara</h3>
+                                                        <h1 className="text-2xl font-bold">Ndak Og</h1>
+                                                    </div>
+                                                    <a className="flex-1 text-center self-center" href="https://open.spotify.com/playlist/66G9IRzO6CLJ975qpdPwYO?si=2d747d823ca64562" target="_blank">link</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </motion.div>
