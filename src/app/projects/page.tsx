@@ -23,7 +23,8 @@ return (
           />
           <div className="flex">
             <p className="md:w-56 lg:w-1/2 xl:w-1/3 break-words flex-1">
-              My latest project for my final project in college. this project was inteded to help a.
+              My latest project for my final project in college. this project
+              was inteded to help a.
             </p>
           </div>
         </div>

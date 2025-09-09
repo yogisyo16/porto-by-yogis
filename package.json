@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
-    "framer-motion": "^12.4.7",
+    "flubber": "^0.4.2",
+    "framer-motion": "^12.6.3",
     "next": "15.2.4",
     "profile-yogiswara": "file:",
     "react": "19.1.0",

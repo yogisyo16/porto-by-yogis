@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { useState } from "react";
+import { motion,useTransform } from "framer-motion";
 
 export default function Home() {
   return (
@@ -16,6 +17,12 @@ export default function Home() {
         </h2>
         <div className="flex flex-col mt-12 gap-4">
           <h3 className="text-5xl text-center">Hello!</h3>
+          <motion.div
+            whileHover={{ cursor: "pointer" }}
+            style={{ cursor: "default" }}
+          >
+            Hover over me!
+          </motion.div>
           <p className="flex-wrap mx-10 my-10 text-center md:text-center sm:text-center">
             Whatssssuppppp!!! Hello everyone! My name is Yogiswara Adinugraha
             Pramudita and you can call me Yoga, Yogis, and Yogi
