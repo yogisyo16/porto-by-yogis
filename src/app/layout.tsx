@@ -66,7 +66,7 @@ export default function RootLayout({
                     <Link href="/projects">Projects</Link>
                   </li>
                   <li className="">
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/playground">Playground</Link>
                   </li>
                 </ul>
               </details>
@@ -78,7 +78,7 @@ export default function RootLayout({
                   <Link href="/projects">Projects</Link>
                 </li>
                 <li className="md:mr-4">
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/playground">Playground</Link>
                 </li>
               </ul>
             </div>
